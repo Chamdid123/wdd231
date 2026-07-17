@@ -1,0 +1,33 @@
+/******************** header ********************/
+header {
+    display: grid;
+    grid-template-columns: 22px auto 44px;
+    padding: 5px 0 10px;
+    align-items: end;
+    column-gap: 8px;
+
+}
+header img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+header span{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.chamdid{
+    background: none;
+    border: none;
+    color: #3D405B;
+    cursor: pointer;
+}
+.chamdid::before{
+    content: "\2630";
+    font-size: 1rem;
+}
+
+.chamdid.show::before{
+    content: "\00D7";
+}

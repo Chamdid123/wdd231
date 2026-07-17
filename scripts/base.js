@@ -9,6 +9,8 @@ navbutton.addEventListener('click', () => {
     navlinks.classList.toggle('show');
 });
 
+
+
 const courses = [
     {
         subject: 'CSE',
